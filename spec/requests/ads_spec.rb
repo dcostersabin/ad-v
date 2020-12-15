@@ -12,9 +12,9 @@ require 'rails_helper'
 # of tools you can use to make these specs even more expressive, but we're
 # sticking to rails and rspec-rails APIs to keep things simple and stable.
 
-RSpec.describe "/attachments", type: :request do
+RSpec.describe "/ads", type: :request do
   # This should return the minimal set of attributes required to create a valid
-  # Attachment. As you add validations to Attachment, be sure to
+  # Ad. As you add validations to Ad, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
     skip("Add a hash of attributes valid for your model")
@@ -26,7 +26,7 @@ RSpec.describe "/attachments", type: :request do
 
   # This should return the minimal set of values that should be in the headers
   # in order to pass any filters (e.g. authentication) defined in
-  # AttachmentsController, or in your router and rack
+  # AdsController, or in your router and rack
   # middleware. Be sure to keep this updated too.
   let(:valid_headers) {
     {}
@@ -34,48 +34,48 @@ RSpec.describe "/attachments", type: :request do
 
   describe "GET /index" do
     it "renders a successful response" do
-      Attachment.create! valid_attributes
-      get attachments_url, headers: valid_headers, as: :json
+      Ad.create! valid_attributes
+      get ads_url, headers: valid_headers, as: :json
       expect(response).to be_successful
     end
   end
 
   describe "GET /show" do
     it "renders a successful response" do
-      attachment = Attachment.create! valid_attributes
-      get attachment_url(attachment), as: :json
+      ad = Ad.create! valid_attributes
+      get ad_url(ad), as: :json
       expect(response).to be_successful
     end
   end
 
   describe "POST /create" do
     context "with valid parameters" do
-      it "creates a new Attachment" do
+      it "creates a new Ad" do
         expect {
-          post attachments_url,
-               params: { attachment: valid_attributes }, headers: valid_headers, as: :json
-        }.to change(Attachment, :count).by(1)
+          post ads_url,
+               params: { ad: valid_attributes }, headers: valid_headers, as: :json
+        }.to change(Ad, :count).by(1)
       end
 
-      it "renders a JSON response with the new attachment" do
-        post attachments_url,
-             params: { attachment: valid_attributes }, headers: valid_headers, as: :json
+      it "renders a JSON response with the new ad" do
+        post ads_url,
+             params: { ad: valid_attributes }, headers: valid_headers, as: :json
         expect(response).to have_http_status(:created)
         expect(response.content_type).to match(a_string_including("application/json"))
       end
     end
 
     context "with invalid parameters" do
-      it "does not create a new Attachment" do
+      it "does not create a new Ad" do
         expect {
-          post attachments_url,
-               params: { attachment: invalid_attributes }, as: :json
-        }.to change(Attachment, :count).by(0)
+          post ads_url,
+               params: { ad: invalid_attributes }, as: :json
+        }.to change(Ad, :count).by(0)
       end
 
-      it "renders a JSON response with errors for the new attachment" do
-        post attachments_url,
-             params: { attachment: invalid_attributes }, headers: valid_headers, as: :json
+      it "renders a JSON response with errors for the new ad" do
+        post ads_url,
+             params: { ad: invalid_attributes }, headers: valid_headers, as: :json
         expect(response).to have_http_status(:unprocessable_entity)
         expect(response.content_type).to eq("application/json")
       end
@@ -88,28 +88,28 @@ RSpec.describe "/attachments", type: :request do
         skip("Add a hash of attributes valid for your model")
       }
 
-      it "updates the requested attachment" do
-        attachment = Attachment.create! valid_attributes
-        patch attachment_url(attachment),
-              params: { attachment: invalid_attributes }, headers: valid_headers, as: :json
-        attachment.reload
+      it "updates the requested ad" do
+        ad = Ad.create! valid_attributes
+        patch ad_url(ad),
+              params: { ad: invalid_attributes }, headers: valid_headers, as: :json
+        ad.reload
         skip("Add assertions for updated state")
       end
 
-      it "renders a JSON response with the attachment" do
-        attachment = Attachment.create! valid_attributes
-        patch attachment_url(attachment),
-              params: { attachment: invalid_attributes }, headers: valid_headers, as: :json
+      it "renders a JSON response with the ad" do
+        ad = Ad.create! valid_attributes
+        patch ad_url(ad),
+              params: { ad: invalid_attributes }, headers: valid_headers, as: :json
         expect(response).to have_http_status(:ok)
         expect(response.content_type).to eq("application/json")
       end
     end
 
     context "with invalid parameters" do
-      it "renders a JSON response with errors for the attachment" do
-        attachment = Attachment.create! valid_attributes
-        patch attachment_url(attachment),
-              params: { attachment: invalid_attributes }, headers: valid_headers, as: :json
+      it "renders a JSON response with errors for the ad" do
+        ad = Ad.create! valid_attributes
+        patch ad_url(ad),
+              params: { ad: invalid_attributes }, headers: valid_headers, as: :json
         expect(response).to have_http_status(:unprocessable_entity)
         expect(response.content_type).to eq("application/json")
       end
@@ -117,11 +117,11 @@ RSpec.describe "/attachments", type: :request do
   end
 
   describe "DELETE /destroy" do
-    it "destroys the requested attachment" do
-      attachment = Attachment.create! valid_attributes
+    it "destroys the requested ad" do
+      ad = Ad.create! valid_attributes
       expect {
-        delete attachment_url(attachment), headers: valid_headers, as: :json
-      }.to change(Attachment, :count).by(-1)
+        delete ad_url(ad), headers: valid_headers, as: :json
+      }.to change(Ad, :count).by(-1)
     end
   end
 end

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee00486-906f-485a-b35f-21b10fa01da1" name="Default Changelist" comment="" />
+    <list default="true" id="9ee00486-906f-485a-b35f-21b10fa01da1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8/storage_v2/_src_/database/ad_v_development.1l8zIQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8/storage_v2/_src_/database/ad_v_development.1l8zIQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/attachments_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/wallets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/wallets_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/attachment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20201214105547_create_attachments.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/attachment_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/attachments_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/attachments_routing_spec.rb" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +27,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+      <option value="200" />
+    </hideBySeverity>
   </component>
   <component name="ProjectId" id="1ldfmDKKZNNVQE78H8s2Pua1tne" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,6 +45,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -144,10 +166,39 @@
       <workItem from="1607934407679" duration="20000" />
       <workItem from="1607934429602" duration="860000" />
       <workItem from="1607935303078" duration="10713000" />
+      <workItem from="1607955437721" duration="703000" />
+      <workItem from="1607956409815" duration="1706000" />
+      <workItem from="1607992149210" duration="6902000" />
+      <workItem from="1608002170355" duration="173000" />
+      <workItem from="1608002361272" duration="24688000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/controllers/ads_controller.rb</url>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

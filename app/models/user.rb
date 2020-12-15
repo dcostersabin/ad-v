@@ -6,6 +6,7 @@ class User < ApplicationRecord
   validates :validity, presence: true
   validates :user_type, presence: true
   has_many :followers
+  has_many :ads
   has_one :wallet
 
 
