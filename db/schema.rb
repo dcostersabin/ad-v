@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_12_15_111712) do
+ActiveRecord::Schema.define(version: 2020_12_16_091038) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,15 @@ ActiveRecord::Schema.define(version: 2020_12_15_111712) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "ad_views", force: :cascade do |t|
+    t.integer "user_id"
+    t.integer "ad_id"
+    t.boolean "payable"
+    t.integer "promoter_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "ads", force: :cascade do |t|
     t.integer "creator_id"
     t.string "title"
@@ -56,6 +65,13 @@ ActiveRecord::Schema.define(version: 2020_12_15_111712) do
 
   create_table "attachments", force: :cascade do |t|
     t.string "path"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "currencies", force: :cascade do |t|
+    t.text "hash_digest"
+    t.boolean "validity"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

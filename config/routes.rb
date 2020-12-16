@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :currencies
   # for creators only
   post 'ads' => 'ads#create'
   # for promoters only
@@ -14,10 +15,13 @@ Rails.application.routes.draw do
   post 'user_token' => 'user_token#create'
   # for users only
   get 'ads/view_all' => 'ads#index'
+  # for users only
+  get 'ads/view/:id' => 'ads#show'
   # for creators only
   put 'ads/approve' => 'ad_requests#update'
   resources :users do
     # for all users
     post 'follow' => 'followers#follow'
   end
+  get 'dev' => 'wallets#update'
 end

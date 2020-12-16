@@ -1,5 +1,7 @@
 class AdRequestsController < ApplicationController
   before_action :set_ad_request, only: [:show, :update, :destroy]
+  before_action :authenticate_user
+
 
   # GET /ad_requests
   def index

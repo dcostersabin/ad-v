@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee00486-906f-485a-b35f-21b10fa01da1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ad-v.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ad-v.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8/storage_v2/_src_/database/ad_v_development.1l8zIQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8/storage_v2/_src_/database/ad_v_development.1l8zIQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/attachments_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ad_requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ad_requests_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ads_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ads_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/wallets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/wallets_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/attachment.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/ad.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ad.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20201214105547_create_attachments.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/attachment_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/requests/attachments_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/routing/attachments_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="grid.search.filter.rows" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -171,6 +172,8 @@
       <workItem from="1607992149210" duration="6902000" />
       <workItem from="1608002170355" duration="173000" />
       <workItem from="1608002361272" duration="24688000" />
+      <workItem from="1608089553466" duration="15120000" />
+      <workItem from="1608107324869" duration="6388000" />
     </task>
     <servers />
   </component>
@@ -187,18 +190,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/ads_controller.rb</url>
-          <properties myBlockOrdinal="-1">
-            <option name="block-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

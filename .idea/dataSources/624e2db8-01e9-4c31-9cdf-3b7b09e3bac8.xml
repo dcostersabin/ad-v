@@ -1408,25 +1408,27 @@ false posix/WET
 false posix/Zulu
 false posixrules
 </TimeZones>
-      <StartupTime>1608001475</StartupTime>
+      <StartupTime>1608081221</StartupTime>
     </root>
     <database id="2" parent="1" name="ad_v_development">
-      <ObjectId>16491</ObjectId>
+      <ObjectId>16708</ObjectId>
       <Owner>sabin</Owner>
-      <IntrospectionStateNumber>859</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1075</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|16493|16495|1
-sequence|table|16506|16508|1
-sequence|table|16518|16520|1
-sequence|table|16526|16528|1
-sequence|table|16537|16539|1
-sequence|table|16548|16550|1
-sequence|table|16556|16558|1
-sequence|table|16567|16569|1
+      <Relations>sequence|table|16710|16712|1
+sequence|table|16723|16725|1
+sequence|table|16735|16737|1
+sequence|table|16743|16745|1
+sequence|table|16751|16753|1
+sequence|table|16762|16764|1
+sequence|table|16773|16775|1
+sequence|table|16781|16783|1
+sequence|table|16792|16794|1
+sequence|table|16934|16936|1
 </Relations>
     </database>
     <database id="3" parent="1" name="ad_v_test">
-      <ObjectId>16492</ObjectId>
+      <ObjectId>16709</ObjectId>
       <Owner>sabin</Owner>
     </database>
     <database id="4" parent="1" name="postgres">
@@ -1513,7 +1515,7 @@ UC/10
 </Acl>
       <StateNumber>359</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>860</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1076</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="21" parent="2" name="plpgsql">
@@ -1607,149 +1609,171 @@ UC/10
       <Type>index</Type>
     </access-method>
     <sequence id="32" parent="20" name="active_storage_attachments_id_seq">
-      <ObjectId>16493</ObjectId>
+      <ObjectId>16710</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="33" parent="20" name="active_storage_blobs_id_seq">
-      <ObjectId>16506</ObjectId>
+      <ObjectId>16723</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
     <sequence id="34" parent="20" name="ad_requests_id_seq">
-      <ObjectId>16518</ObjectId>
+      <ObjectId>16735</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <sequence id="35" parent="20" name="ads_id_seq">
-      <ObjectId>16526</ObjectId>
+    <sequence id="35" parent="20" name="ad_views_id_seq">
+      <ObjectId>16743</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>827</StateNumber>
+      <StateNumber>930</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <sequence id="36" parent="20" name="attachments_id_seq">
-      <ObjectId>16537</ObjectId>
+    <sequence id="36" parent="20" name="ads_id_seq">
+      <ObjectId>16751</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>828</StateNumber>
+      <StateNumber>931</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <sequence id="37" parent="20" name="followers_id_seq">
-      <ObjectId>16548</ObjectId>
+    <sequence id="37" parent="20" name="attachments_id_seq">
+      <ObjectId>16762</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>829</StateNumber>
+      <StateNumber>932</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <sequence id="38" parent="20" name="users_id_seq">
-      <ObjectId>16556</ObjectId>
+    <sequence id="38" parent="20" name="currencies_id_seq">
+      <ObjectId>16934</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>830</StateNumber>
+      <StateNumber>1074</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <sequence id="39" parent="20" name="wallets_id_seq">
-      <ObjectId>16567</ObjectId>
+    <sequence id="39" parent="20" name="followers_id_seq">
+      <ObjectId>16773</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>831</StateNumber>
+      <StateNumber>933</StateNumber>
       <DataType>bigint|0s</DataType>
     </sequence>
-    <table id="40" parent="20" name="active_storage_attachments">
-      <ObjectId>16495</ObjectId>
+    <sequence id="40" parent="20" name="users_id_seq">
+      <ObjectId>16781</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>832</StateNumber>
-    </table>
-    <table id="41" parent="20" name="active_storage_blobs">
-      <ObjectId>16508</ObjectId>
+      <StateNumber>934</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <sequence id="41" parent="20" name="wallets_id_seq">
+      <ObjectId>16792</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>832</StateNumber>
-    </table>
-    <table id="42" parent="20" name="ad_requests">
-      <ObjectId>16520</ObjectId>
+      <StateNumber>935</StateNumber>
+      <DataType>bigint|0s</DataType>
+    </sequence>
+    <table id="42" parent="20" name="active_storage_attachments">
+      <ObjectId>16712</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>826</StateNumber>
+      <StateNumber>936</StateNumber>
     </table>
-    <table id="43" parent="20" name="ads">
-      <ObjectId>16528</ObjectId>
+    <table id="43" parent="20" name="active_storage_blobs">
+      <ObjectId>16725</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>827</StateNumber>
+      <StateNumber>936</StateNumber>
     </table>
-    <table id="44" parent="20" name="ar_internal_metadata">
-      <ObjectId>16588</ObjectId>
+    <table id="44" parent="20" name="ad_requests">
+      <ObjectId>16737</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>836</StateNumber>
+      <StateNumber>929</StateNumber>
     </table>
-    <table id="45" parent="20" name="attachments">
-      <ObjectId>16539</ObjectId>
+    <table id="45" parent="20" name="ad_views">
+      <ObjectId>16745</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>828</StateNumber>
+      <StateNumber>930</StateNumber>
     </table>
-    <table id="46" parent="20" name="followers">
-      <ObjectId>16550</ObjectId>
+    <table id="46" parent="20" name="ads">
+      <ObjectId>16753</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>829</StateNumber>
+      <StateNumber>931</StateNumber>
     </table>
-    <table id="47" parent="20" name="schema_migrations">
-      <ObjectId>16580</ObjectId>
+    <table id="47" parent="20" name="ar_internal_metadata">
+      <ObjectId>16813</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>833</StateNumber>
+      <StateNumber>940</StateNumber>
     </table>
-    <table id="48" parent="20" name="users">
-      <ObjectId>16558</ObjectId>
+    <table id="48" parent="20" name="attachments">
+      <ObjectId>16764</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>830</StateNumber>
+      <StateNumber>932</StateNumber>
     </table>
-    <table id="49" parent="20" name="wallets">
-      <ObjectId>16569</ObjectId>
+    <table id="49" parent="20" name="currencies">
+      <ObjectId>16936</ObjectId>
       <Owner>sabin</Owner>
-      <StateNumber>831</StateNumber>
+      <StateNumber>1074</StateNumber>
     </table>
-    <column id="50" parent="40" name="id">
+    <table id="50" parent="20" name="followers">
+      <ObjectId>16775</ObjectId>
+      <Owner>sabin</Owner>
+      <StateNumber>933</StateNumber>
+    </table>
+    <table id="51" parent="20" name="schema_migrations">
+      <ObjectId>16805</ObjectId>
+      <Owner>sabin</Owner>
+      <StateNumber>937</StateNumber>
+    </table>
+    <table id="52" parent="20" name="users">
+      <ObjectId>16783</ObjectId>
+      <Owner>sabin</Owner>
+      <StateNumber>934</StateNumber>
+    </table>
+    <table id="53" parent="20" name="wallets">
+      <ObjectId>16794</ObjectId>
+      <Owner>sabin</Owner>
+      <StateNumber>935</StateNumber>
+    </table>
+    <column id="54" parent="42" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <DefaultExpression>nextval(&apos;active_storage_attachments_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="51" parent="40" name="name">
+    <column id="55" parent="42" name="name">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="52" parent="40" name="record_type">
+    <column id="56" parent="42" name="record_type">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="53" parent="40" name="record_id">
+    <column id="57" parent="42" name="record_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="54" parent="40" name="blob_id">
+    <column id="58" parent="42" name="blob_id">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="55" parent="40" name="created_at">
+    <column id="59" parent="42" name="created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>821</StateNumber>
+      <StateNumber>924</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="56" parent="40" name="active_storage_attachments_pkey">
-      <ObjectId>16502</ObjectId>
-      <StateNumber>821</StateNumber>
+    <index id="60" parent="42" name="active_storage_attachments_pkey">
+      <ObjectId>16719</ObjectId>
+      <StateNumber>924</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1757,9 +1781,9 @@ UC/10
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="57" parent="40" name="index_active_storage_attachments_uniqueness">
-      <ObjectId>16505</ObjectId>
-      <StateNumber>823</StateNumber>
+    <index id="61" parent="42" name="index_active_storage_attachments_uniqueness">
+      <ObjectId>16722</ObjectId>
+      <StateNumber>926</StateNumber>
       <ColNames>record_type
 record_id
 name
@@ -1771,89 +1795,89 @@ blob_id</ColNames>
 default</CollationNames>
       <ClassIds>3126,3124,3126,3124</ClassIds>
     </index>
-    <index id="58" parent="40" name="index_active_storage_attachments_on_blob_id">
-      <ObjectId>16504</ObjectId>
-      <StateNumber>822</StateNumber>
+    <index id="62" parent="42" name="index_active_storage_attachments_on_blob_id">
+      <ObjectId>16721</ObjectId>
+      <StateNumber>925</StateNumber>
       <ColNames>blob_id</ColNames>
       <AccessMethodId>403</AccessMethodId>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="59" parent="40" name="active_storage_attachments_pkey">
-      <ObjectId>16503</ObjectId>
-      <StateNumber>821</StateNumber>
+    <key id="63" parent="42" name="active_storage_attachments_pkey">
+      <ObjectId>16720</ObjectId>
+      <StateNumber>924</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>active_storage_attachments_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="60" parent="40" name="fk_rails_c3b3935057">
-      <ObjectId>16575</ObjectId>
-      <StateNumber>832</StateNumber>
+    <foreign-key id="64" parent="42" name="fk_rails_c3b3935057">
+      <ObjectId>16800</ObjectId>
+      <StateNumber>936</StateNumber>
       <ColNames>blob_id</ColNames>
-      <RefTableId>16508</RefTableId>
+      <RefTableId>16725</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>active_storage_blobs</RefTableName>
       <RefKeyName>active_storage_blobs_pkey</RefKeyName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="61" parent="41" name="id">
+    <column id="65" parent="43" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <DefaultExpression>nextval(&apos;active_storage_blobs_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="62" parent="41" name="key">
+    <column id="66" parent="43" name="key">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="63" parent="41" name="filename">
+    <column id="67" parent="43" name="filename">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="64" parent="41" name="content_type">
+    <column id="68" parent="43" name="content_type">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="65" parent="41" name="metadata">
+    <column id="69" parent="43" name="metadata">
       <Position>5</Position>
       <DataType>text|0s</DataType>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="66" parent="41" name="byte_size">
+    <column id="70" parent="43" name="byte_size">
       <Position>6</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="67" parent="41" name="checksum">
+    <column id="71" parent="43" name="checksum">
       <Position>7</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="68" parent="41" name="created_at">
+    <column id="72" parent="43" name="created_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>824</StateNumber>
+      <StateNumber>927</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="69" parent="41" name="active_storage_blobs_pkey">
-      <ObjectId>16515</ObjectId>
-      <StateNumber>824</StateNumber>
+    <index id="73" parent="43" name="active_storage_blobs_pkey">
+      <ObjectId>16732</ObjectId>
+      <StateNumber>927</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1861,9 +1885,9 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="70" parent="41" name="index_active_storage_blobs_on_key">
-      <ObjectId>16517</ObjectId>
-      <StateNumber>825</StateNumber>
+    <index id="74" parent="43" name="index_active_storage_blobs_on_key">
+      <ObjectId>16734</ObjectId>
+      <StateNumber>928</StateNumber>
       <ColNames>key</ColNames>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
@@ -1871,62 +1895,62 @@ default</CollationNames>
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="71" parent="41" name="active_storage_blobs_pkey">
-      <ObjectId>16516</ObjectId>
-      <StateNumber>824</StateNumber>
+    <key id="75" parent="43" name="active_storage_blobs_pkey">
+      <ObjectId>16733</ObjectId>
+      <StateNumber>927</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>active_storage_blobs_pkey</UnderlyingIndexName>
     </key>
-    <column id="72" parent="42" name="id">
+    <column id="76" parent="44" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <DefaultExpression>nextval(&apos;ad_requests_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="73" parent="42" name="promoter_id">
+    <column id="77" parent="44" name="promoter_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="74" parent="42" name="ad_id">
+    <column id="78" parent="44" name="ad_id">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="75" parent="42" name="accepted">
+    <column id="79" parent="44" name="accepted">
       <Position>4</Position>
       <DataType>boolean|0s</DataType>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="76" parent="42" name="paid">
+    <column id="80" parent="44" name="paid">
       <Position>5</Position>
       <DataType>boolean|0s</DataType>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="77" parent="42" name="created_at">
+    <column id="81" parent="44" name="created_at">
       <Position>6</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="78" parent="42" name="updated_at">
+    <column id="82" parent="44" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>826</StateNumber>
+      <StateNumber>929</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="79" parent="42" name="ad_requests_pkey">
-      <ObjectId>16524</ObjectId>
-      <StateNumber>826</StateNumber>
+    <index id="83" parent="44" name="ad_requests_pkey">
+      <ObjectId>16741</ObjectId>
+      <StateNumber>929</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -1934,68 +1958,62 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="80" parent="42" name="ad_requests_pkey">
-      <ObjectId>16525</ObjectId>
-      <StateNumber>826</StateNumber>
+    <key id="84" parent="44" name="ad_requests_pkey">
+      <ObjectId>16742</ObjectId>
+      <StateNumber>929</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>ad_requests_pkey</UnderlyingIndexName>
     </key>
-    <column id="81" parent="43" name="id">
+    <column id="85" parent="45" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>827</StateNumber>
-      <DefaultExpression>nextval(&apos;ads_id_seq&apos;::regclass)</DefaultExpression>
+      <StateNumber>930</StateNumber>
+      <DefaultExpression>nextval(&apos;ad_views_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="82" parent="43" name="creator_id">
+    <column id="86" parent="45" name="user_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>827</StateNumber>
+      <StateNumber>930</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="83" parent="43" name="title">
+    <column id="87" parent="45" name="ad_id">
       <Position>3</Position>
-      <DataType>varchar|0s</DataType>
-      <StateNumber>827</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>integer|0s</DataType>
+      <StateNumber>930</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="84" parent="43" name="description">
+    <column id="88" parent="45" name="payable">
       <Position>4</Position>
-      <DataType>text|0s</DataType>
-      <StateNumber>827</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <column id="85" parent="43" name="validity">
-      <Position>5</Position>
       <DataType>boolean|0s</DataType>
-      <StateNumber>827</StateNumber>
+      <StateNumber>930</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="86" parent="43" name="created_at">
+    <column id="89" parent="45" name="promoter_id">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>930</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="90" parent="45" name="created_at">
       <Position>6</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>827</StateNumber>
+      <StateNumber>930</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="87" parent="43" name="updated_at">
+    <column id="91" parent="45" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>827</StateNumber>
+      <StateNumber>930</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="88" parent="43" name="creator">
-      <Position>8</Position>
-      <DataType>integer|0s</DataType>
-      <StateNumber>827</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <index id="89" parent="43" name="ads_pkey">
-      <ObjectId>16535</ObjectId>
-      <StateNumber>827</StateNumber>
+    <index id="92" parent="45" name="ad_views_pkey">
+      <ObjectId>16749</ObjectId>
+      <StateNumber>930</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2003,43 +2021,106 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="90" parent="43" name="ads_pkey">
-      <ObjectId>16536</ObjectId>
-      <StateNumber>827</StateNumber>
+    <key id="93" parent="45" name="ad_views_pkey">
+      <ObjectId>16750</ObjectId>
+      <StateNumber>930</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>ad_views_pkey</UnderlyingIndexName>
+    </key>
+    <column id="94" parent="46" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>931</StateNumber>
+      <DefaultExpression>nextval(&apos;ads_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="95" parent="46" name="creator_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>931</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="96" parent="46" name="title">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <StateNumber>931</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="97" parent="46" name="description">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>931</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="98" parent="46" name="validity">
+      <Position>5</Position>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>931</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <column id="99" parent="46" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>931</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="100" parent="46" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>931</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="101" parent="46" name="ads_pkey">
+      <ObjectId>16760</ObjectId>
+      <StateNumber>931</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="102" parent="46" name="ads_pkey">
+      <ObjectId>16761</ObjectId>
+      <StateNumber>931</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>ads_pkey</UnderlyingIndexName>
     </key>
-    <column id="91" parent="44" name="key">
+    <column id="103" parent="47" name="key">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>836</StateNumber>
+      <StateNumber>940</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="92" parent="44" name="value">
+    <column id="104" parent="47" name="value">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>836</StateNumber>
+      <StateNumber>940</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="93" parent="44" name="created_at">
+    <column id="105" parent="47" name="created_at">
       <Position>3</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>836</StateNumber>
+      <StateNumber>940</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="94" parent="44" name="updated_at">
+    <column id="106" parent="47" name="updated_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>836</StateNumber>
+      <StateNumber>940</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="95" parent="44" name="ar_internal_metadata_pkey">
-      <ObjectId>16594</ObjectId>
-      <StateNumber>836</StateNumber>
+    <index id="107" parent="47" name="ar_internal_metadata_pkey">
+      <ObjectId>16819</ObjectId>
+      <StateNumber>940</StateNumber>
       <ColNames>key</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2048,44 +2129,44 @@ default</CollationNames>
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="96" parent="44" name="ar_internal_metadata_pkey">
-      <ObjectId>16595</ObjectId>
-      <StateNumber>836</StateNumber>
+    <key id="108" parent="47" name="ar_internal_metadata_pkey">
+      <ObjectId>16820</ObjectId>
+      <StateNumber>940</StateNumber>
       <ColNames>key</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
     </key>
-    <column id="97" parent="45" name="id">
+    <column id="109" parent="48" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>828</StateNumber>
+      <StateNumber>932</StateNumber>
       <DefaultExpression>nextval(&apos;attachments_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="98" parent="45" name="path">
+    <column id="110" parent="48" name="path">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>828</StateNumber>
+      <StateNumber>932</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="99" parent="45" name="created_at">
+    <column id="111" parent="48" name="created_at">
       <Position>3</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>828</StateNumber>
+      <StateNumber>932</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="100" parent="45" name="updated_at">
+    <column id="112" parent="48" name="updated_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>828</StateNumber>
+      <StateNumber>932</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="101" parent="45" name="attachments_pkey">
-      <ObjectId>16546</ObjectId>
-      <StateNumber>828</StateNumber>
+    <index id="113" parent="48" name="attachments_pkey">
+      <ObjectId>16771</ObjectId>
+      <StateNumber>932</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2093,50 +2174,50 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="102" parent="45" name="attachments_pkey">
-      <ObjectId>16547</ObjectId>
-      <StateNumber>828</StateNumber>
+    <key id="114" parent="48" name="attachments_pkey">
+      <ObjectId>16772</ObjectId>
+      <StateNumber>932</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>attachments_pkey</UnderlyingIndexName>
     </key>
-    <column id="103" parent="46" name="id">
+    <column id="115" parent="49" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>829</StateNumber>
-      <DefaultExpression>nextval(&apos;followers_id_seq&apos;::regclass)</DefaultExpression>
+      <StateNumber>1074</StateNumber>
+      <DefaultExpression>nextval(&apos;currencies_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="104" parent="46" name="user_id">
+    <column id="116" parent="49" name="hash">
       <Position>2</Position>
-      <DataType>integer|0s</DataType>
-      <StateNumber>829</StateNumber>
-      <TypeId>23</TypeId>
+      <DataType>text|0s</DataType>
+      <StateNumber>1074</StateNumber>
+      <TypeId>25</TypeId>
     </column>
-    <column id="105" parent="46" name="following">
+    <column id="117" parent="49" name="validity">
       <Position>3</Position>
-      <DataType>integer|0s</DataType>
-      <StateNumber>829</StateNumber>
-      <TypeId>23</TypeId>
+      <DataType>boolean|0s</DataType>
+      <StateNumber>1074</StateNumber>
+      <TypeId>16</TypeId>
     </column>
-    <column id="106" parent="46" name="created_at">
+    <column id="118" parent="49" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>829</StateNumber>
+      <StateNumber>1074</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="107" parent="46" name="updated_at">
+    <column id="119" parent="49" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>829</StateNumber>
+      <StateNumber>1074</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="108" parent="46" name="followers_pkey">
-      <ObjectId>16554</ObjectId>
-      <StateNumber>829</StateNumber>
+    <index id="120" parent="49" name="currencies_pkey">
+      <ObjectId>16943</ObjectId>
+      <StateNumber>1074</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2144,23 +2225,74 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="109" parent="46" name="followers_pkey">
-      <ObjectId>16555</ObjectId>
-      <StateNumber>829</StateNumber>
+    <key id="121" parent="49" name="currencies_pkey">
+      <ObjectId>16944</ObjectId>
+      <StateNumber>1074</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>currencies_pkey</UnderlyingIndexName>
+    </key>
+    <column id="122" parent="50" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>933</StateNumber>
+      <DefaultExpression>nextval(&apos;followers_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="123" parent="50" name="user_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>933</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="124" parent="50" name="following">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>933</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="125" parent="50" name="created_at">
+      <Position>4</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>933</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="126" parent="50" name="updated_at">
+      <Position>5</Position>
+      <DataType>timestamp(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>933</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="127" parent="50" name="followers_pkey">
+      <ObjectId>16779</ObjectId>
+      <StateNumber>933</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>3124</ClassIds>
+    </index>
+    <key id="128" parent="50" name="followers_pkey">
+      <ObjectId>16780</ObjectId>
+      <StateNumber>933</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>followers_pkey</UnderlyingIndexName>
     </key>
-    <column id="110" parent="47" name="version">
+    <column id="129" parent="51" name="version">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>833</StateNumber>
+      <StateNumber>937</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="111" parent="47" name="schema_migrations_pkey">
-      <ObjectId>16586</ObjectId>
-      <StateNumber>833</StateNumber>
+    <index id="130" parent="51" name="schema_migrations_pkey">
+      <ObjectId>16811</ObjectId>
+      <StateNumber>937</StateNumber>
       <ColNames>version</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2169,68 +2301,68 @@ default</CollationNames>
       <CollationNames>default</CollationNames>
       <ClassIds>3126</ClassIds>
     </index>
-    <key id="112" parent="47" name="schema_migrations_pkey">
-      <ObjectId>16587</ObjectId>
-      <StateNumber>833</StateNumber>
+    <key id="131" parent="51" name="schema_migrations_pkey">
+      <ObjectId>16812</ObjectId>
+      <StateNumber>937</StateNumber>
       <ColNames>version</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
     </key>
-    <column id="113" parent="48" name="id">
+    <column id="132" parent="52" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="114" parent="48" name="name">
+    <column id="133" parent="52" name="name">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="115" parent="48" name="email">
+    <column id="134" parent="52" name="email">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="116" parent="48" name="password_digest">
+    <column id="135" parent="52" name="password_digest">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="117" parent="48" name="user_type">
+    <column id="136" parent="52" name="user_type">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="118" parent="48" name="validity">
+    <column id="137" parent="52" name="validity">
       <Position>6</Position>
       <DataType>boolean|0s</DataType>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>16</TypeId>
     </column>
-    <column id="119" parent="48" name="created_at">
+    <column id="138" parent="52" name="created_at">
       <Position>7</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="120" parent="48" name="updated_at">
+    <column id="139" parent="52" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>830</StateNumber>
+      <StateNumber>934</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="121" parent="48" name="users_pkey">
-      <ObjectId>16565</ObjectId>
-      <StateNumber>830</StateNumber>
+    <index id="140" parent="52" name="users_pkey">
+      <ObjectId>16790</ObjectId>
+      <StateNumber>934</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2238,50 +2370,50 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="122" parent="48" name="users_pkey">
-      <ObjectId>16566</ObjectId>
-      <StateNumber>830</StateNumber>
+    <key id="141" parent="52" name="users_pkey">
+      <ObjectId>16791</ObjectId>
+      <StateNumber>934</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
-    <column id="123" parent="49" name="id">
+    <column id="142" parent="53" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>831</StateNumber>
+      <StateNumber>935</StateNumber>
       <DefaultExpression>nextval(&apos;wallets_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="124" parent="49" name="user_id">
+    <column id="143" parent="53" name="user_id">
       <Position>2</Position>
       <DataType>integer|0s</DataType>
-      <StateNumber>831</StateNumber>
+      <StateNumber>935</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="125" parent="49" name="balance">
+    <column id="144" parent="53" name="balance">
       <Position>3</Position>
       <DataType>double precision|0s</DataType>
-      <StateNumber>831</StateNumber>
+      <StateNumber>935</StateNumber>
       <TypeId>701</TypeId>
     </column>
-    <column id="126" parent="49" name="created_at">
+    <column id="145" parent="53" name="created_at">
       <Position>4</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>831</StateNumber>
+      <StateNumber>935</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="127" parent="49" name="updated_at">
+    <column id="146" parent="53" name="updated_at">
       <Position>5</Position>
       <DataType>timestamp(6)|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>831</StateNumber>
+      <StateNumber>935</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <index id="128" parent="49" name="wallets_pkey">
-      <ObjectId>16573</ObjectId>
-      <StateNumber>831</StateNumber>
+    <index id="147" parent="53" name="wallets_pkey">
+      <ObjectId>16798</ObjectId>
+      <StateNumber>935</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -2289,9 +2421,9 @@ default</CollationNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="129" parent="49" name="wallets_pkey">
-      <ObjectId>16574</ObjectId>
-      <StateNumber>831</StateNumber>
+    <key id="148" parent="53" name="wallets_pkey">
+      <ObjectId>16799</ObjectId>
+      <StateNumber>935</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>wallets_pkey</UnderlyingIndexName>

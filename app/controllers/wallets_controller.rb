@@ -1,12 +1,6 @@
 class WalletsController < ApplicationController
   before_action :set_wallet, only: [:show, :update, :destroy]
-
-  # GET /wallets
-  def index
-    @wallets = Wallet.all
-
-    render json: @wallets
-  end
+  before_action :authenticate_user
 
   # GET /wallets/1
   def show
@@ -26,23 +20,37 @@ class WalletsController < ApplicationController
 
   # PATCH/PUT /wallets/1
   def update
-    if @wallet.update(wallet_params)
-      render json: @wallet
+    if params.key?('hash')
+      #   check if the hash is in the database
+      exisits = Currency.where(:hash_digest => params[:hash], :validity => true).exists?
+      if exisits
+        @wallet.balance += 500
+        #  disable the curreny before transaction is commited
+        currency = Currency.where(:hash_digest => params[:hash], :validity => true).first!
+        currency.validity = false
+        if currency.save && @wallet.save
+          render json: 'Wallet Updated By 500'
+        else
+          bad_request
+        end
+      else
+        bad_request
+      end
     else
-      render json: @wallet.errors, status: :unprocessable_entity
+      bad_request
     end
-  end
-
-  # DELETE /wallets/1
-  def destroy
-    @wallet.destroy
   end
 
   private
 
+  # returns bad request error
+  def bad_request
+    render json: { "status": 400, "message": 'Bad Request Please Check The Request Again!' }
+  end
+
   # Use callbacks to share common setup or constraints between actions.
   def set_wallet
-    @wallet = Wallet.find(params[:id])
+    @wallet = Wallet.where(user_id: current_user.id).first!
   end
 
   # Only allow a trusted parameter "white list" through.
