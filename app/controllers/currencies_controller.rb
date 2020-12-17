@@ -12,7 +12,7 @@ class CurrenciesController < ApplicationController
           # getting the hash
           hashed = generate_hash.to_s
           # creating currencies to work on
-          single_currency = Currency.create(:hash_digest => hashed, :validity => true).save
+          single_currency = Currency.create(:hash_digest => hashed, :validity => true)
         end
         render json: 'Economy started'
       else

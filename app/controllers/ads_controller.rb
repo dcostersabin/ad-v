@@ -72,6 +72,7 @@ class AdsController < ApplicationController
         else
           # send bad request if the provided clip is not valid
           bad_request
+
         end
       else
         # if clip is not initialized send bad request
@@ -91,7 +92,7 @@ class AdsController < ApplicationController
       clip_url = rails_blob_path(@ad.clip, disposition: 'attachment', only_path: true)
       viewable = { 'description' => @ad, 'url' => clip_url, "paid_status": paid_status }
       # check if promoter is still unpaid and exists for the given add
-      promoter_check = AdRequest.where(ad_id: params[:id], promoter_id: params[:promoters_id], paid: false).exists?
+      promoter_check = AdRequest.where(ad_id: params[:id], promoter_id: params[:promoters_id], paid: false , accepted: true).exists?
       if promoter_check
         #  check if the user has already viewed the add
         user_ad_view_check = AdView.where(ad_id: params[:id], user_id: current_user.id).exists?
@@ -116,6 +117,7 @@ class AdsController < ApplicationController
             render json: viewable
           else
             bad_request
+
           end
 
         end
@@ -142,7 +144,7 @@ class AdsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_ad
-    limit = 1
+    limit = 10000
     # decline request with invalid id
     if params.key?('promoters_id') && User.where(id: params[:promoters_id]).exists?
       begin

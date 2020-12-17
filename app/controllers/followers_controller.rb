@@ -23,7 +23,7 @@ class FollowersController < ApplicationController
           #  user validity is not false then add the user
           if user_check.validity
             #  no errors are generated then create a new follower
-            new_follower = Follower.create(:user_id => current_user.id, :following => params[:follower]).save
+            new_follower = Follower.create(:user_id => current_user.id, :following => params[:follower])
             if new_follower.nil?
               error_msg('Opps! Something Went Wrong')
             else

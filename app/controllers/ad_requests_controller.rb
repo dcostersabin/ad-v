@@ -37,8 +37,8 @@ class AdRequestsController < ApplicationController
           if request
             success('Creator is notified')
           else
-            # bad_request
-            success('a')
+            bad_request
+
           end
         else
           bad_request
@@ -46,6 +46,7 @@ class AdRequestsController < ApplicationController
       rescue ActiveRecord::RecordNotFound => e
         # if the record is not found then create a bad request response
         bad_request
+
       end
 
     else

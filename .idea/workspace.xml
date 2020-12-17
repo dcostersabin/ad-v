@@ -6,24 +6,59 @@
   <component name="ChangeListManager">
     <list default="true" id="9ee00486-906f-485a-b35f-21b10fa01da1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/ad-v.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ad-v.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8/storage_v2/_src_/database/ad_v_development.1l8zIQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/624e2db8-01e9-4c31-9cdf-3b7b09e3bac8/storage_v2/_src_/database/ad_v_development.1l8zIQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/ad_requests_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ad_requests_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ad_views_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ad_views_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/ads_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ads_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/currencies_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/currencies_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/followers_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/followers_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/wallets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/wallets_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ad.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ad.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/follower.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/follower.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/config.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/ad_request_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/ad_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/ad_view_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/currency_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/follower_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/wallet_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/ad_requests_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/ad_requests_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/ad_views_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/ad_views_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/ads_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/ads_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/currencies_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/currencies_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/followers_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/followers_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/users_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/users_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/wallets_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/wallets_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/ad_requests_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/ad_views_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/ads_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/currencies_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/followers_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/users_routing_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/routing/wallets_routing_spec.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +70,9 @@
     </hideBySeverity>
   </component>
   <component name="ProjectId" id="1ldfmDKKZNNVQE78H8s2Pua1tne" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -173,7 +210,10 @@
       <workItem from="1608002170355" duration="173000" />
       <workItem from="1608002361272" duration="24688000" />
       <workItem from="1608089553466" duration="15120000" />
-      <workItem from="1608107324869" duration="6388000" />
+      <workItem from="1608107324869" duration="13117000" />
+      <workItem from="1608122497418" duration="2562000" />
+      <workItem from="1608164920388" duration="34603000" />
+      <workItem from="1608204756619" duration="8228000" />
     </task>
     <servers />
   </component>

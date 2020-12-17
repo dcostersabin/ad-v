@@ -18,7 +18,6 @@ class WalletsController < ApplicationController
     end
   end
 
-  # PATCH/PUT /wallets/1
   def update
     if params.key?('hash')
       #   check if the hash is in the database
