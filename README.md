@@ -1,6 +1,6 @@
 # AD-V
 
-__Platform Where You Watch And Share Ads To Get Pain__
+__Platform Where You Watch And Share Ads To Get Paid__
 
 ``This is only the back-end implementation only written in ruby``
 
